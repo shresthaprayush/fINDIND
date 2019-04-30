@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="200dp"
+    android:background="@color/background"
+    android:padding="5dp"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/txtclosetwo"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="10dp"
+
+        android:background="@drawable/cerclebackground"
+        android:gravity="center"
+        android:text="X"
+        android:textColor="@color/Titlehome"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtclose"
+        android:layout_marginTop="10dp"
+        android:background="@color/background"
+
+
+        >
+
+        <TextView
+            android:id="@+id/addresssecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="false"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/background"
+            android:text="Dolakha Motercycle Service Center"
+            android:textAlignment="center"
+            android:textColor="@color/Titlehome"
+            android:layout_marginTop="25dp"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/nearaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addresssecond"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/background"
+            android:text="Near to lumbinin dental"
+            android:textAlignment="center"
+            android:textColor="@color/Titlehome"
+
+            android:textSize="20dp"
+            android:textStyle="italic"
+
+            />
+
+
+    </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+

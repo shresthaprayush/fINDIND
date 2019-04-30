@@ -1,0 +1,43 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardspecific_id"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    cardview:cardBackgroundColor="@color/cardview_dark_background"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="5dp"
+    cardview:cardCornerRadius="4dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFF"/>
+
+        <TextView
+            android:id="@+id/specific_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Kantipath, Kathmandu"
+            android:layout_centerVertical="true"
+            android:textAllCaps="true"
+            android:layout_margin="5dp"
+            android:textColor="@color/background"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

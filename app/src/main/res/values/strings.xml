@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Finding Shops</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_books">Local Service Centers</string>
+    <string name="title_activity_authentic_service_centers">Authentic Service Centers</string>
+    <string name="title_activity_workshops">Workshops</string>
+    <string name="title_activity_transparentactivitylocal">Transparentactivitylocal</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_parking">Parking</string>
+</resources>

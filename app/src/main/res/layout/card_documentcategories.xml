@@ -1,0 +1,44 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardviewdocscat_id"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    cardview:cardBackgroundColor="@color/Titlehome"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="5dp"
+    cardview:cardCornerRadius="4dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/docscategory_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Ram Chandra Service Center"
+            android:layout_margin="5dp"
+            android:textColor="@color/background"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/descriptionlocal"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/background"
+            android:layout_below="@+id/docscategory_title"
+            android:text="Kapan, Kathmandu"
+            android:textStyle="italic"/>
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

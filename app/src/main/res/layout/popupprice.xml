@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="400dp"
+    android:background="@color/background"
+    android:padding="5dp"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/txtcloseprice"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/cerclebackground"
+        android:gravity="center"
+        android:text="X"
+        android:textColor="@color/Titlehome"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/background">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:background="@color/background"
+            android:layout_height="wrap_content"
+            android:text="Jawalekhel Paid Parking Parking"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:id="@+id/nameofparking"
+            android:textColor="@color/Titlehome"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@color/first"
+
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/price"
+                android:text="150"
+                android:background="@drawable/bike"
+                android:textSize="18sp"
+                android:textColor="@color/Titlehome"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/second"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19"
+                android:id="@+id/locationparking"
+                android:textSize="18sp"
+                android:background="@drawable/car"
+                android:textColor="@color/Titlehome"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/third"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="60dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50"
+                android:id="@+id/mapparking"
+                android:textSize="18sp"
+                android:background="@drawable/jeep"
+                android:textColor="@color/Titlehome"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:id="@+id/pricelist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@color/first"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="60dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:id="@+id/bikeprice"
+                android:textSize="40sp"
+                android:textColor="@color/Titlehome"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/second"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="60dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20"
+                android:id="@+id/carprice"
+                android:textSize="40sp"
+                android:textColor="@color/Titlehome"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/third"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="60dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50"
+                android:id="@+id/jeepprice"
+                android:textSize="40sp"
+                android:textColor="@color/Titlehome"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

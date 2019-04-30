@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#2f333f</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Titlehome">#FFFF</color>
+    <color name = "bluelight">#49acd5</color>
+    <color name = "green">#49bc62</color>
+    <color name = "orange">#eaad43</color>
+    <color name="background">#132f47</color>
+    <color name = "first">#01709e</color>
+    <color name = "second">#2a86ab</color>
+    <color name = "third">#1ea1e5</color>
+    <!--<color name="background">#ffc700</color>-->
+    <!--<color name = "first">#ec487b</color>-->
+    <color name = "second2">#277faf</color>
+    <!--<color name = "third">#39907b</color>-->
+
+
+
+</resources>
